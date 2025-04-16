@@ -33,6 +33,14 @@ You can install Oh my tmux! at any of the following locations:
 - `$XDG_CONFIG_HOME/tmux`
 - `~/.config/tmux`
 
+My Install:
+```
+git clone --single-branch git@github.com:nckgreene/.tmux.git ~/.config/oh-my-tmux \
+&& mkdir -p ~/.config/tmux \
+&& ln -s ~/.config/oh-my-tmux/.tmux.conf ~/.config/tmux/tmux.conf \
+&& cp ~/.config/oh-my-tmux/.tmux.conf.local ~/.config/tmux/tmux.conf.local
+```
+
 Installing in `~`:
 ```
 $ cd
